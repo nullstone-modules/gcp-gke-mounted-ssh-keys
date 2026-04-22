@@ -1,0 +1,17 @@
+org_name: nullstone
+name: gcp-gke-mounted-ssh-keys
+friendly_name: SSH Keys (mounted)
+description: Creates SSH keys and mounts as file in GKE app
+category: capability
+subcategory: secrets
+provider_types:
+    - gcp
+platform: k8s
+subplatform: gke
+type: ""
+appCategories:
+    - container
+is_public: true
+tool_name: opentofu
+include: []
+source_url: https://github.com/nullstone-modules/gcp-gke-mounted-ssh-keys
